@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "hugo"
+command = "npm install postcss-cli && npm install autoprefixer && hugo"
 
 [context.production.environment]
 HUGO_VERSION = "0.71.1"
