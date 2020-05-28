@@ -1,5 +1,4 @@
-# Hello World!
-
-I haven't done jackshit with markdown in a while. Honestly it feels easier in my head to just write html out then convert it to md and paste it in. Maybe I'll add that in a pipeline...
-
-
+---
+title: "Hello World!"
+text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+---
