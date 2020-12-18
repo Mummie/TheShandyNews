@@ -1,9 +1,51 @@
-baseurl = "/"
+baseurl = "https://sethhandy.com"
 languageLang = "en"
 # RSS, categories and tags disabled for an easy start
 # See configuration options for more details: 
 # https://gohugo.io/getting-started/configuration/#toml-configuration
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
 languageCode = "en-us"
+defaultContentLanguage   = "en"
 title = "The Shandy News"
-theme = "sam"
+isMultilingual           = false
+theme                    = "sam"
+pygmentsStyle            = "monokai"                        # https://help.farbox.com/pygments.html
+pygmentsCodefences       = true
+# googleAnalytics        = "@TODO PUT TRACKING CODE HERE OR SOME SHIT WITH GTM"                               # Tracking code, eg. "UA-111111111-1"
+
+[params]
+    dateform             = "Mon Jan 02, 2006"
+    dateformfull         = "Mon Jan 2 2006 15:04:05 EST"
+    favicon              = "sam.ico"
+    homepage             = "main"                           # What to call the home page link
+    footerText           = "If it compiled first try I *probably* didn't code it"
+
+# Metadata for Open Graph and Twitter
+    description          = "Seth Handy - Full Stack Lead Developer"               # Max 160 characters show in search results
+    images               = ["tn.png"]                       # Image that shows on Twitter cards and Open Graph links to the site
+    title                = "Shandy Code Dojo"
+
+[[params.videoBackground.sources]]
+    source  = "/sample_video.mp4"
+    type    = "video/mp4"
+    poster  = "/background.png"
+[params.videoBackground]
+    overlay = "rgba(0, 0, 0, 0.4)" # optional
+
+[[params.mainMenu]]
+    link = "posts"
+    text = "posts"
+
+[[params.mainMenu]]
+    link = "portfolio"
+    text = "portfolio"
+
+[[params.mainMenu]]
+    link = "about"
+    text = "who is seth?"
+
+[[params.mainMenu]]
+    link = "resume"
+    text = "peep my resume"
+[imaging]
+    quality = 75
