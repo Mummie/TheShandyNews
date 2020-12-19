@@ -21,8 +21,8 @@ pygmentsCodefences       = true
     footerText           = "If it compiled first try I *probably* didn't code it"
 
 # Metadata for Open Graph and Twitter
-    description          = "Seth Handy - Full Stack Lead Developer"               # Max 160 characters show in search results
-    images               = ["tn.png"]                       # Image that shows on Twitter cards and Open Graph links to the site
+    description          = "Seth Handy - Full Stack Lead Developer"              
+    images               = ["tn.png"]                      
     title                = "Shandy Code Dojo"
 
 [[params.videoBackground.sources]]
