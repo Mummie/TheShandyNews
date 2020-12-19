@@ -2,3 +2,8 @@
 
 # TheShandyNews
 It's my website
+
+
+# I should probably put something cool here, huh?
+
+It's just a static site, bruh
