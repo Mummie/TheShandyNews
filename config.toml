@@ -8,7 +8,7 @@ languageCode = "en-us"
 defaultContentLanguage   = "en"
 title = "The Shandy News"
 isMultilingual           = false
-theme                    = "sam"
+theme                    = "terminal"
 pygmentsStyle            = "monokai"                        # https://help.farbox.com/pygments.html
 pygmentsCodefences       = true
 # googleAnalytics        = "@TODO PUT TRACKING CODE HERE OR SOME SHIT WITH GTM"                               # Tracking code, eg. "UA-111111111-1"
@@ -17,8 +17,49 @@ pygmentsCodefences       = true
     dateform             = "Mon Jan 02, 2006"
     dateformfull         = "Mon Jan 2 2006 15:04:05 EST"
     favicon              = "sam.ico"
-    homepage             = "main"                           # What to call the home page link
+    homepage             = "main"       
+    centerTheme          = true
     footerText           = "If it compiled first try I *probably* didn't code it"
+
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "Terminal"
+
+    [languages.en.params]
+      subtitle = "A simple, retro theme for Hugo"
+      owner = ""
+      keywords = ""
+      copyright = ""
+      menuMore = "Show more"
+      readMore = "Read more"
+      readOtherPosts = "Read other posts"
+      newerPosts = "Newer posts"
+      olderPosts = "Older posts"
+      missingContentMessage = "Page not found..."
+      missingBackButtonLabel = "Back to home page"
+      minuteReadingTime = "min read"
+      words = "words"
+
+      [languages.en.params.logo]
+        logoText = "Shandy"
+        logoHomeLink = "/"
+
+      [languages.en.menu]
+        [[languages.en.menu.main]]
+          identifier = "about"
+          name = "About"
+          url = "/about"
+        [[languages.en.menu.main]]
+          identifier = "posts"
+          name = "Posts"
+          url = "/posts"
+        [[languages.en.menu.main]]
+          identifier = "photography"
+          name = "Photography"
+          url = "/photos"
+
 
 # Metadata for Open Graph and Twitter
     description          = "Seth Handy - Full Stack Lead Developer"              
